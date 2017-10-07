@@ -1,0 +1,11 @@
+<html>
+  <head>
+    <title>Hughug</title>
+  </head>
+  <body>
+    <h1>Welcome to Hughug.  Remember grouphug?  Me too.  Confess to us all!</h1>
+    {% for post in posts %}
+    <div><p><b>{{ post.postNum }}</b>: {{ post.body }}</p></div>
+    {% endfor %}
+  </body>
+</html>
